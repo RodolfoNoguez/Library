@@ -1,0 +1,43 @@
+
+
+body{
+    background-color: rgb(120, 57, 57);
+    color: white;
+}
+
+.booklogger{
+    font-size: 2rem;
+    padding-bottom: 50px;
+}
+
+input[type="text"]{
+    width: 30vw;
+    border-radius: 0;
+}
+
+
+label{
+    font-size: 1.5rem;
+}
+
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.black-line {
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+
+.display-books{
+    display: grid;
+    
+}
+
