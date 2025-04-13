@@ -1,13 +1,14 @@
 
 
 body{
-    background-color: rgb(120, 57, 57);
+    background-color: rgb(67, 40, 40);
     color: white;
 }
 
 .booklogger{
-    font-size: 2rem;
+    font-size: 3rem;
     padding-bottom: 50px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 input[type="text"]{
@@ -36,8 +37,26 @@ label{
 }
 
 
-.display-books{
+#book-container{
     display: grid;
-    
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    align-items: flex-start;
+    /* width: 300px; */
 }
 
+.book-card{
+    box-sizing: border-box;
+    word-wrap: break-word;
+   
+}
+
+button{
+    background-color: rgb(20, 18, 18);
+    border-radius: 15px;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+}   
